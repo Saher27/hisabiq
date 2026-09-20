@@ -1,0 +1,5 @@
+{
+  "events": ["page_view","calculator_start","calculator_complete","decision_insight_view","toolkit_cta_view","toolkit_cta_click","checkout_start","purchase","fulfillment_success","refund"],
+  "payload": ["event_name","timestamp","page_version","anonymous_session_id","source","medium","calculator_mode"],
+  "privacy": {"raw_pii": false, "raw_product_inputs": false}
+}
