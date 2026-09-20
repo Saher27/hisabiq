@@ -5,7 +5,7 @@
 HISABIQ is a focused toolkit for Saudi e-commerce sellers to understand order-level profit, pricing, CAC ceilings, and break-even economics.
 
 ## Current release
-Deployment candidate V1.2.
+Production deployment V1.3 is active on Cloudflare Pages at `hisabiq.pages.dev`. Independent live verification remains pending in the current execution environment.
 
 The public prototype currently provides a free calculator. Live payment is intentionally disabled until business/payment eligibility and production checkout are verified.
 
@@ -25,3 +25,7 @@ Minimalist black + warm gold, mobile-first.
 Current HISABIQ spend: SAR 0.
 
 See the docs directory for operating documentation and release gates.
+
+
+## Astra execution
+The deployment/execution target is documented in `docs/ASTRA_EXECUTION_SPEC_V1.md`, including states, permissions, deployment contracts, verification rules, exception handling, and acceptance tests.
